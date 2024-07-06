@@ -143,3 +143,28 @@ button{
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
+
+/* QUOTE */
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 64px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+.quote-cite{
+    align-self: flex-end;
+    font-weight: bold;
+    padding-right: 32px;
+}
