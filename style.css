@@ -22,6 +22,7 @@ a{
     text-decoration: none;
 }
 
+/* HEADER */
 header{
     background-color: #1F2937;
     display: flex;
@@ -42,4 +43,66 @@ header{
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+/* CONTAINER */
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* HERO */
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 48px 32px;
+    gap: 32px;
+}
+
+.hero-left, .hero-right{
+    width: 400px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.hero-left h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #3882F6;
+    border-radius: 6px;
+    padding: 4px 16px;
+}
+
+.hero-right{
+    background-color: rgb(110, 116, 124, 1.0);
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
 }
