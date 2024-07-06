@@ -1,40 +1,45 @@
-body{
+html{
     font-family: 'Roboto',sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-}
-
-.header{
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
-.logo{
-    color: white;
-    font-size: 25px;
-    font-weight: 800;
-    padding: 15px 100px;
-    flex-shrink: 0;
 }
 
 ul{
     list-style-type: none;
-    display: flex;
-    gap: 20px;
     padding: 0;
-    margin: 0;
+}
+
+li{
+    /* TBD */
 }
 
 a{
     text-decoration: none;
-    color: grey;
-    font-size: 16px;
-    padding: 8px;
 }
 
-.right-link{
-    padding-right: 100px;
+header{
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 72px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
