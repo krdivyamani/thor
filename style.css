@@ -106,3 +106,40 @@ button{
     justify-content: center;
     height: 250px;
 }
+
+/* INFO */
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.info-item img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
